@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6C61F81F-A03E-49CD-B8FF-549C65AB4027}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CF5D05F5-E2C7-42CE-9653-3E499485DC2E}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PoliticalLandscape", "src\PoliticalLandscape\PoliticalLandscape.xproj", "{8C997079-F042-47A1-B83E-A449AB4EF36E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C997079-F042-47A1-B83E-A449AB4EF36E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C997079-F042-47A1-B83E-A449AB4EF36E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C997079-F042-47A1-B83E-A449AB4EF36E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C997079-F042-47A1-B83E-A449AB4EF36E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C997079-F042-47A1-B83E-A449AB4EF36E} = {6C61F81F-A03E-49CD-B8FF-549C65AB4027}
+	EndGlobalSection
+EndGlobal
